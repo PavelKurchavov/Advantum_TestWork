@@ -68,7 +68,7 @@ public class Solution {
         for (Node link : someNodeOfOriginalGraph.linkedNodes) {
             Node copiedLinkNode = copyGraph(link);
             if (copiedLinkNode != null) {
-                copiedLinks.add(copyGraph(link));
+                copiedLinks.add(copiedLinkNode);
             }
         }
 
